@@ -1,0 +1,140 @@
+[
+  {
+    "path": "lua/autorun/akamanto_animsound.lua",
+    "size": 579,
+    "crc": 2866574265,
+    "sha256": "52a27cc4372263aba7f2a59dbb93d0c9719683c38f81f8316faea63dc147af1c"
+  },
+  {
+    "path": "lua/autorun/include/akamanto.lua",
+    "size": 7729,
+    "crc": 3749585231,
+    "sha256": "a9bae76ee1e0758d3fb1ea1118bb271ac5f905b0866a63f1b14c0bf5f44c1f49"
+  },
+  {
+    "path": "lua/autorun/pill_aka_manto_base.lua",
+    "size": 2082,
+    "crc": 1509272780,
+    "sha256": "0f2ae45d8f6595c5510863cf548a7a86f686520ecf675173c01bc8a3f189e247"
+  },
+  {
+    "path": "materials/icon/pill_akamanto.png",
+    "size": 70231,
+    "crc": 2189888304,
+    "sha256": "5c6cfc09579dd2b333df08d2504ddb788501950c6319e43af759df5798bff542"
+  },
+  {
+    "path": "materials/models/akamanto/body.vmt",
+    "size": 66,
+    "crc": 1424486685,
+    "sha256": "bf5e9654d41d2fad474866b0ceec0cc65e10ab3947756cffac303299ca5c49b7"
+  },
+  {
+    "path": "materials/models/akamanto/body.vtf",
+    "size": 1398336,
+    "crc": 685050092,
+    "sha256": "a2a51739c0760bfb753a458842bbce14c8352ae6d913f00cce17890f2a2b5230"
+  },
+  {
+    "path": "materials/models/akamanto/body2.vmt",
+    "size": 67,
+    "crc": 2681805876,
+    "sha256": "d3522ddb284b1cbacc3ff68f1718b4aa9197e3353824af096525344ed42cd420"
+  },
+  {
+    "path": "materials/models/akamanto/body2.vtf",
+    "size": 1398336,
+    "crc": 574806788,
+    "sha256": "a8d53655eb69e2ff85b51bdfbc7a0fefed12c72c994c332197471e2f42fc06f4"
+  },
+  {
+    "path": "materials/models/akamanto/knifeblack.vmt",
+    "size": 72,
+    "crc": 917438679,
+    "sha256": "6f2b21251d3ab766d19d85fdd3cad5cc66dd536c75110539b6c137cd247aa388"
+  },
+  {
+    "path": "materials/models/akamanto/knifeblack.vtf",
+    "size": 349760,
+    "crc": 2512293619,
+    "sha256": "311608c0055538dda75972ec03c0c3d319f960ac85ea80f48ee9f36089825c35"
+  },
+  {
+    "path": "materials/pills/pill_pakamanto.png",
+    "size": 529338,
+    "crc": 1112492739,
+    "sha256": "57482ea2e82f7c2bb7ec13134c1794828c0ad0aa2af96c62c07ac3bbc8701560"
+  },
+  {
+    "path": "models/astolfo_alter/chillasarts/akamanto/aka_mantov3.dx80.vtx",
+    "size": 77183,
+    "crc": 1449352442,
+    "sha256": "733b6774a03439bca77ec4e90e51af69cc7a205575e053cde70ad088ad597426"
+  },
+  {
+    "path": "models/astolfo_alter/chillasarts/akamanto/aka_mantov3.dx90.vtx",
+    "size": 76410,
+    "crc": 1201618804,
+    "sha256": "15d7c3713fd78f506c4ea2cc1588eab33d526a21540bde0b4c7c8f8c49803d91"
+  },
+  {
+    "path": "models/astolfo_alter/chillasarts/akamanto/aka_mantov3.mdl",
+    "size": 59956,
+    "crc": 1010371334,
+    "sha256": "f9651122014f8d495f1f10b7f8f369efb76512f0dd5b42c42a9e926991a4e975"
+  },
+  {
+    "path": "models/astolfo_alter/chillasarts/akamanto/aka_mantov3.vvd",
+    "size": 310720,
+    "crc": 3562620729,
+    "sha256": "f02cfeb674a56a46d452d0f42cb4537533b920b378ab886ffcd4a5ec479e9862"
+  },
+  {
+    "path": "sound/slender/aka_manto/detect.wav",
+    "size": 172122,
+    "crc": 192436401,
+    "sha256": "60aa3159dce3f09228d376d48f44afcd4891dd61348cd97cb05048d5c626d801"
+  },
+  {
+    "path": "sound/slender/aka_manto/footstep/tile1.mp3",
+    "size": 37572,
+    "crc": 1855714747,
+    "sha256": "74f1dfd8fc7c62219282404b08f36340e7a4bafb6d2f4d57a1070a0da0728dcc"
+  },
+  {
+    "path": "sound/slender/aka_manto/footstep/tile2.mp3",
+    "size": 53734,
+    "crc": 2968137881,
+    "sha256": "14b13832697564acca58a0b4b37b5417f301c25dd97945486843c90f482fc418"
+  },
+  {
+    "path": "sound/slender/aka_manto/footstep/tile3.mp3",
+    "size": 58606,
+    "crc": 4113678603,
+    "sha256": "236dff0a23bbebbff798aad65b7a8cae63d3d350e3b28e5e35992518dea75005"
+  },
+  {
+    "path": "sound/slender/aka_manto/footstep/tile4.mp3",
+    "size": 26040,
+    "crc": 1185244482,
+    "sha256": "6cca58401857bd489a5a70d9d34c9bec7f7905b4d2dfae3508819134b4dd2a49"
+  },
+  {
+    "path": "sound/slender/aka_manto/kill.wav",
+    "size": 299598,
+    "crc": 1518734370,
+    "sha256": "dc6be00fe1e0b3268d753f1c8348fd8113aeb5aedb86a01fb28fb18e568fbc30"
+  },
+  {
+    "path": "sound/slender/aka_manto/laugh.wav",
+    "size": 415834,
+    "crc": 2072542780,
+    "sha256": "197d95e247c898e4954d3fcfa86ee8572d62797c0ebb426ea8db9681cd9f6151"
+  },
+  {
+    "path": "sound/slender/aka_manto/scream.wav",
+    "size": 323674,
+    "crc": 3922800954,
+    "sha256": "0d749606bcb715bd9ad74b5a5f2e9482a81ba4a9e1ad36d4229fbbc868d89578"
+  }
+]
