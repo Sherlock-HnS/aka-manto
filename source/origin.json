@@ -4,8 +4,8 @@
   "title": "[PILL PACK] Aka Manto (UpdateX4)",
   "author": "Brute_Zeal3310",
   "status": "extracted_verified",
-  "acquisition": "existing_steam_client_installation",
-  "steamcmd_download_completed": false,
+  "acquisition": "steamcmd",
+  "steamcmd_download_completed": true,
   "source_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3698853722",
   "source_archive_sha256": "1968438b42dd884f2651ed019ec8dd6db3dc6e37291df7772b3fe4920779aeab",
   "gma_header": {
