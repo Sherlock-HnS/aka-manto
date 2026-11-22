@@ -99,6 +99,15 @@ attack = {
             end
         end
 
+        if SherlockHNS and IsValid(entity) and entity:IsPlayer() then
+            return pk_pills.playHNSJumpscare(ply, ent, entity, 0.7, {
+                camera = "PILLSJUMPCAM",
+                offset = 75,
+                animation = "jumpscare",
+                sound = "jumpscare",
+            })
+        end
+
         if IsValid(entity) then
             local pill = ent:GetPuppet()
 
@@ -265,6 +274,21 @@ noragdoll=true,
             ent.laughlineplaying = false
         end)
 	end,
-})
+}, function(form)
+    -- The legacy damage branches are for Sandbox and NPCs.
+    form.hnsKillAPI = true
+    form.hnsAbilities = {
+        { id = "attack", name = "Ataque", key = IN_ATTACK, OnUse = form.attack.func },
+        { id = "highlight", name = "Revelar jogadores", key = IN_ATTACK2, cooldown = 40, duration = 5,
+            CanUse = function(ply) return not ply.OnHold end,
+            OnUse = function(ply, ent)
+                ent:PillSound("highlight")
+                ply:SetNWBool("AMwallhaks", true)
+            end,
+            OnEnd = function(ply) if IsValid(ply) then ply:SetNWBool("AMwallhaks", false) end end },
+        { id = "laugh", name = "Risada", key = IN_RELOAD, OnUse = form.reload },
+    }
+    form.attack, form.attack2, form.reload = nil, nil, nil
+end)
 
 
