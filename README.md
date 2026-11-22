@@ -1,4 +1,4 @@
-[PILL PACK] Aka Manto (UpdateX4)
+# [PILL PACK] Aka Manto (UpdateX4)
 
 ![Workshop preview](workshop-preview.jpg)
 
