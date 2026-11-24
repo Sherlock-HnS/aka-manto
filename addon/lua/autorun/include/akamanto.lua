@@ -86,13 +86,18 @@ pk_pills.register("pill_pakamanto",{
 attack = {
     mode = 'trigger',
     func = function(ply, ent)
-        local entity = nil
+        local center = ent:LocalToWorld(Vector(0, 0, 50))
+        local entity
 
-        -- Find the nearest player or NPC to the trigger entity
-        for k, v in pairs(ents.FindInSphere(ent:LocalToWorld(Vector(0, 0, 50)), 60)) do
-            if v:IsPlayer() or v:IsNextBot() or v:IsNPC() then
-                if v == ent or v == ply then continue end
-                if (v:IsPlayer() and v:Team() ~= TEAM_SPECTATOR) or (v:IsNPC() or v:IsNextBot()) and v:Health() > 0 then
+        if SherlockHNS then
+            -- Sherlock: escolhe somente um alvo validado pela Kill API.
+            entity = SherlockHNS.FindVictim(ply, center, 60)
+        else
+            -- Sandbox: preserva o comportamento original com players e NPCs.
+            for _, v in ipairs(ents.FindInSphere(center, 60)) do
+                if v ~= ent and v ~= ply
+                    and ((v:IsPlayer() and v:Team() ~= TEAM_SPECTATOR)
+                        or ((v:IsNPC() or v:IsNextBot()) and v:Health() > 0)) then
                     entity = v
                     break
                 end
